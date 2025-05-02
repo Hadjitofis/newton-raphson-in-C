@@ -48,7 +48,7 @@ The program prints:
   -  nan if the derivative becomes zero (division by zero)
 
   -  incomplete if no convergence after 1000 iterations
-# 🌍 Why This Matters
+## 🌍 Why This Matters
 Finding roots of polynomials is a foundational tool in:
 
   -  Engineering simulations
@@ -61,7 +61,7 @@ Finding roots of polynomials is a foundational tool in:
 
 This project demonstrates both an understanding of numerical methods and the ability to implement them efficiently in C.
 
-# 💡 Future Improvements
+## 💡 Future Improvements
 Add fallback strategies for poor initial guesses
 
 Generalize to support polynomials of arbitrary degree
