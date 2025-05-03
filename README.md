@@ -22,12 +22,12 @@ f(x) = a₀ + a₁x + a₂x² + a₃x³ + a₄x⁴ + a₅x⁵
 gcc -O3 -Wall -Wextra -Werror -pedantic -o newton newton.c -lm
 ```
 
-🏗 How to Build
+## 🏗 How to Build
 Compile the program:
 ```bash
 gcc -O3 -Wall -Wextra -Werror -pedantic -o newton newton.c -lm
 ```
-🏃 How to Run
+## 🏃 How to Run
 Run the program from the command line:
 ```bash
 ./newton a₀ a₁ a₂ a₃ a₄ a₅ x₀
@@ -40,7 +40,7 @@ Example:
 ```bash
 ./newton 1.0 2.0 3.0 4.0 5.0 6.0 1.0
 ```
-📊 Output
+## 📊 Output
 The program prints:
 
   -  The approximated root (with two decimal places) if it converges
